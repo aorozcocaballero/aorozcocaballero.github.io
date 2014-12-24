@@ -103,7 +103,7 @@ footer p {
 
 a {
   text-decoration: none;
-  color: #007edf;
+  color: #ffffff;
   text-shadow: none;
 
   transition: color 0.5s ease;
@@ -201,6 +201,7 @@ ul, ol, dl {
 }
 
 ul {
+  display: inline-block;
   list-style: inside;
   padding-left: 20px;
 }
@@ -270,18 +271,105 @@ Full-Width Styles
 }
 
 #forkme_banner {
+  font: #000000;
   display: block;
   position: absolute;
   top:0;
   right: 10px;
   z-index: 10;
   padding: 10px 50px 10px 10px;
-  color: #fff;
-  background: url('../images/LinkedIn Reverse.png') #0090ff no-repeat 95% 50%;
+  color: #4058C7;
+  background: url('../images/LinkedIn Reverse 40.png') #ffffff no-repeat 95% 50%;
   font-weight: 700;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
+}
+
+#Home {
+  display:inline-block;
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  text-shadow: 0px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+#Home:hover {
+  background: #00b35f;
+  background-image: -webkit-linear-gradient(top, #00b35f, #94d934);
+  background-image: -moz-linear-gradient(top, #00b35f, #94d934);
+  background-image: -ms-linear-gradient(top, #00b35f, #94d934);
+  background-image: -o-linear-gradient(top, #00b35f, #94d934);
+  background-image: linear-gradient(to bottom, #00b35f, #94d934);
+  text-decoration: none;
+}
+#Academic {
+  display:inline-block;
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  text-shadow: 0px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+#Academic:hover {
+  background: #00b35f;
+  background-image: -webkit-linear-gradient(top, #00b35f, #94d934);
+  background-image: -moz-linear-gradient(top, #00b35f, #94d934);
+  background-image: -ms-linear-gradient(top, #00b35f, #94d934);
+  background-image: -o-linear-gradient(top, #00b35f, #94d934);
+  background-image: linear-gradient(to bottom, #00b35f, #94d934);
+  text-decoration: none;
+}
+
+#Publications {
+  display:inline-block;
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  text-shadow: 0px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+#Publications:hover {
+  background: #00b35f;
+  background-image: -webkit-linear-gradient(top, #00b35f, #94d934);
+  background-image: -moz-linear-gradient(top, #00b35f, #94d934);
+  background-image: -ms-linear-gradient(top, #00b35f, #94d934);
+  background-image: -o-linear-gradient(top, #00b35f, #94d934);
+  background-image: linear-gradient(to bottom, #00b35f, #94d934);
+  text-decoration: none;
 }
 
 #header_wrap {
