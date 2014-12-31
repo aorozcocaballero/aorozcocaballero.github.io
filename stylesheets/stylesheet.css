@@ -103,7 +103,7 @@ footer p {
 
 a {
   text-decoration: none;
-  color: #ffffff;
+  color: #4058C7;
   text-shadow: none;
 
   transition: color 0.5s ease;
@@ -273,8 +273,8 @@ Full-Width Styles
 
 #forkme_banner {
   font: #000000;
-  display: block;
-  position: absolute;
+  display: inline-block;
+  position:absolute;
   top:0;
   right: 10px;
   z-index: 10;
@@ -286,6 +286,7 @@ Full-Width Styles
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
 }
+
 
 #Home {
   display:inline-block;
@@ -463,6 +464,9 @@ Full-Width Styles
   color: #4058C7;
 }
 
+#button_link {
+  color: #ffffff;
+}
 
 /*******************************************************************************
 Small Device Styles
